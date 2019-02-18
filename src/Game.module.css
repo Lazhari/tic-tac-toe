@@ -1,0 +1,30 @@
+.status {
+	margin-bottom: 10px;
+}
+
+.kbd-navigation .square:focus {
+	background: #ddd;
+}
+
+.game {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	justify-content: space-evenly;
+}
+
+.gameInfo {
+	margin-left: 20px;
+}
+
+.moveButton {
+	background: transparent;
+	border: none;
+	color: #d56c2c;
+	padding: 4px;
+	text-decoration: underline;
+}
+
+.moveButton:focus {
+	outline: 0;
+}
