@@ -1,11 +1,11 @@
 import React from "react";
 
 import Game from "./Game";
-import "./App.css";
+import styles from "./App.module.css";
 
 const App = props => {
   return (
-    <div className="container">
+    <div className={styles.container}>
       <h1>Tic Tac Toe Game</h1>
       <Game />
     </div>

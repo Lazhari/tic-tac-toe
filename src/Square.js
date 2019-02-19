@@ -1,13 +1,13 @@
-import React from 'react';
+import React from "react";
 
-import styles from './Square.module.css';
+import styles from "./Square.module.css";
 
-const Square = props => {
-	return (
-		<button className={styles.square} onClick={props.onClick}>
-			{props.value}
-		</button>
-	);
+const Square = ({ onClick, value }) => {
+  return (
+    <button className={styles.square} onClick={onClick}>
+      {value}
+    </button>
+  );
 };
 
 export default Square;
